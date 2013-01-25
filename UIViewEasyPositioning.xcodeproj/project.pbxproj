@@ -18,6 +18,7 @@
 		B018D88516B1F01700311CEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B018D88416B1F01700311CEF /* Default-568h@2x.png */; };
 		B018D88816B1F01700311CEF /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B018D88716B1F01700311CEF /* EPViewController.m */; };
 		B018D88B16B1F01700311CEF /* EPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B018D88916B1F01700311CEF /* EPViewController.xib */; };
+		B018D89316B1F07400311CEF /* UIView+VRAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = B018D89216B1F07400311CEF /* UIView+VRAlign.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B018D88616B1F01700311CEF /* EPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
 		B018D88716B1F01700311CEF /* EPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
 		B018D88A16B1F01700311CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EPViewController.xib; sourceTree = "<group>"; };
+		B018D89116B1F07400311CEF /* UIView+VRAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VRAlign.h"; sourceTree = "<group>"; };
+		B018D89216B1F07400311CEF /* UIView+VRAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VRAlign.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				B018D87E16B1F01700311CEF /* EPAppDelegate.m */,
 				B018D88616B1F01700311CEF /* EPViewController.h */,
 				B018D88716B1F01700311CEF /* EPViewController.m */,
+				B018D89116B1F07400311CEF /* UIView+VRAlign.h */,
+				B018D89216B1F07400311CEF /* UIView+VRAlign.m */,
 				B018D88916B1F01700311CEF /* EPViewController.xib */,
 				B018D87516B1F01700311CEF /* Supporting Files */,
 			);
@@ -177,6 +182,7 @@
 				B018D87B16B1F01700311CEF /* main.m in Sources */,
 				B018D87F16B1F01700311CEF /* EPAppDelegate.m in Sources */,
 				B018D88816B1F01700311CEF /* EPViewController.m in Sources */,
+				B018D89316B1F07400311CEF /* UIView+VRAlign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
