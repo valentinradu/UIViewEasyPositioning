@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0135BCF1BBB5A0900B07D4F /* UIView+VRSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B0135BCD1BBB5A0900B07D4F /* UIView+VRSize.m */; settings = {ASSET_TAGS = (); }; };
 		B018D86F16B1F01700311CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B018D86E16B1F01700311CEF /* UIKit.framework */; };
 		B018D87116B1F01700311CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B018D87016B1F01700311CEF /* Foundation.framework */; };
 		B018D87316B1F01700311CEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B018D87216B1F01700311CEF /* CoreGraphics.framework */; };
@@ -22,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0135BCC1BBB5A0900B07D4F /* UIView+VRSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VRSize.h"; sourceTree = "<group>"; };
+		B0135BCD1BBB5A0900B07D4F /* UIView+VRSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VRSize.m"; sourceTree = "<group>"; };
+		B0135BD01BBB5A3600B07D4F /* CGGeometry+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+Base.h"; sourceTree = "<group>"; };
 		B018D86A16B1F01700311CEF /* UIViewEasyPositioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewEasyPositioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B018D86E16B1F01700311CEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B018D87016B1F01700311CEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,9 @@
 				B018D87E16B1F01700311CEF /* EPAppDelegate.m */,
 				B018D88616B1F01700311CEF /* EPViewController.h */,
 				B018D88716B1F01700311CEF /* EPViewController.m */,
+				B0135BD01BBB5A3600B07D4F /* CGGeometry+Base.h */,
+				B0135BCC1BBB5A0900B07D4F /* UIView+VRSize.h */,
+				B0135BCD1BBB5A0900B07D4F /* UIView+VRSize.m */,
 				B018D89116B1F07400311CEF /* UIView+VRAlign.h */,
 				B018D89216B1F07400311CEF /* UIView+VRAlign.m */,
 				B018D88916B1F01700311CEF /* EPViewController.xib */,
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B018D87B16B1F01700311CEF /* main.m in Sources */,
+				B0135BCF1BBB5A0900B07D4F /* UIView+VRSize.m in Sources */,
 				B018D87F16B1F01700311CEF /* EPAppDelegate.m in Sources */,
 				B018D88816B1F01700311CEF /* EPViewController.m in Sources */,
 				B018D89316B1F07400311CEF /* UIView+VRAlign.m in Sources */,
@@ -299,6 +307,7 @@
 				B018D89016B1F01700311CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
